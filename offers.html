@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Vox is a cinema website that includes many movies">
+    <meta name="keywords" content="Movies, Trend, Watch, Cinema, Bahrain, Entertainment">
+    <meta name="author" content="Ruqaya, Amjaad, Amna, Khawla, Walaa">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VoxBahrain</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/favicon.png">
+</head>
+<body>
+    <header>
+        <img src="images/logo.png" id="logo">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="movies.html">Movies</a>
+            <a href="snacks.html">Snacks</a>
+            <a href="offers.html">Offers</a>
+            <a href="booking.html">Booking</a>
+            </nav>
+    </header>
+
+    <main>
+      <br>
+    <h2 id="offers">Cinema offers available - book now and enjoy!</h2>
+      <h2 id="offers2">Click and swipe to get offers now</h2>
+
+    <br>
+    <div class="slider-wrapper">
+    <button class="arrow left">&#10094;</button>
+
+    <div class="viewport">
+      <div class="coupon-container">
+        <div class="coupon" data-img="images/cupons1.jpeg">Offer 1</div>
+        <div class="coupon" data-img="images/cupons2.png">Offer 2</div>
+        <div class="coupon" data-img="images/cupons3.jpeg">Offer 3</div>
+        <div class="coupon" data-img="images/cupons4.png">Offer 4</div>
+        <div class="coupon" data-img="images/cupons5.jpeg">Offer 5</div>
+        <div class="coupon" data-img="images/cupons6.jpeg">Offer 6</div>
+        <div class="coupon" data-img="images/cupons7.jpeg">Offer 7</div>
+
+      </div>   
+    </div>     
+
+    <button class="arrow right">&#10095;</button>
+    </div>
+
+  <div id="image-modal" class="modal">
+    
+    <span class="close">&times;</span> 
+    <img class="modal-content"id="modal-img">
+  </div>
+    
+    <section class="contact-form offer">
+      <h4 id="offers3">SELECT an OFFER</h4>
+      <form action="#" method="post">
+      <label for="offers"></label>
+        <select id="select" name="select">
+                <option value="No Choose">-No Choose-</option>
+                <option value="offer1">Offer 1</option>
+                <option value="offer2">Offer 2</option>
+                <option value="offer3">Offer 3</option>
+                <option value="offer4">Offer 4</option>
+                <option value="offer5">Offer 5</option>
+                <option value="offer6">Offer 6</option>
+                <option value="offer7">Offer 7</option>
+        </select>
+    </form> 
+
+    <div class="rules-box"> 
+      <div class="rules-header" onclick="toggleAccordion(this)">
+      <span class="rules-title">General Rules for Offers</span> 
+      <span class="arrow-btn">&#9660;</span>
+      </div>
+       
+      <div class="rules-content">
+        <p>1.   Online Bookings Only:
+         <br>Most shows require advance booking via the official website or app.</p>
+        <p>2.   Offers are non-refundable and non-exchangeable:
+          <br>Tickets purchased through promotional offers are non-refundable and non-exchangeable.</p>
+        <p>3.   Offer Availability: 
+          <br>Offers vary by location <br> (e.g., VOX The Avenues or VOX City Centre Bahrain) and show date.</p>
+      </div>
+
+    </div>
+
+  
+    
+
+
+  <br>
+    <div class="booking-btn">
+      <a href="booking.html" id="Booking">Book Now!</a>
+  </div>
+  <br>
+  <br>
+    </main>
+
+    <footer>
+        <p>&copy;VoxBahrain</p>
+        <a id="contact" href="https://www.instagram.com/voxbahrain/?hl=en">@voxbahrain</a>
+    </footer>
+    <script src="script.js"></script>
+
+</body>
+</html>
+

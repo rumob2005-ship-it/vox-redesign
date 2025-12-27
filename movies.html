@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Vox is a cinema website that includes many movies">
+    <meta name="keywords" content="Movies, Trend, Watch, Cinema, Bahrain, Entertainment">
+    <meta name="author" content="Ruqaya, Amjaad, Amna, Khawla, Walaa">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <title>VoxBahrain</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/favicon.png">
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>
+        <img src="images/logo.png" id="logo">
+        <nav>
+        <a href="index.html">Home</a>
+        <a href="movies.html">Movies</a>
+        <a href="snacks.html">Snacks</a>
+        <a href="offers.html">Offers</a>
+        <a href="booking.html">Booking</a>
+        </nav>
+    </header>
+
+    <main>
+        <br>
+        <!-- Kids movie section -->
+   <div class="film-category" id="kids">
+    <h2>Kids</h2>
+    <div class="movie-row">
+        <img src="images/kids-coco.jpg" alt="coco movie poster" onclick="openModal ('COCO' ,'Aspiring musician Miguel confronted with his familys ancestral ban on music enters the Land of the Dead to find his great-great-grandfather a legendary singer.', 'video/coco.mp4' ,'audio/coco.mp3')">
+        <img src="images/kids-dora.jpg" alt="dora movie poster" onclick="openModal('DORA', 'Teenage explorer Dora leads her friends on an adventure to save her parents and solve the mystery behind a lost city of gold.', 'video/dora.mp4','audio/dora.mp3')">
+        <img src="images/kids-smallfoot.jpg" alt=" smallfoot movie poster" onclick="openModal('SMALLFOOT', 'High up on a mountain peak surrounded by clouds a secret Yeti society lives in peace and harmony.', 'video/smallfoot.mp4' , 'audio/smallfoot.mp3')">
+        <img src="images/kids-snow-white.jpg" alt=" Snow White movie poster" onclick="openModal('SNOW WHITE', 'A princess joins forces with seven dwarfs and a group of rebels to liberate her kingdom from her cruel stepmother the Evil Queen.', 'video/snowwhite.mp4', 'audio/snowwhite.mp3')">
+        <img src="images/kids-wimpy.jpg" alt="wimpy kid movie poster" onclick="openModal('WIMPY KID', 'Greg Heffley is a 12 year old who is fresh out of elementary and transitions to middle school where he has to learn the consequences and responsibility to survive the year.', 'video/wimpy.mp4','audio/wimpy.mp3')">
+    </div>
+    <hr>
+   </div>
+<!-- Drama movie section -->
+<div class="film-category" id="drama">
+    <h2>Drama</h2>
+    <div class="movie-row">
+        <img src="images/drama-harnessed-wind.jpg" alt="harnessed wind Movie poster" onclick="openModal('THE BOY WHO HARNESSED THE WIND', 'Against all the odds a thirteen year old boy in Malawi invents an unconventional way to save his family and village from famine.', 'video/harnessed-wind.mp4', 'audio/harnessed-wind.mp3')">
+                <img src="images/drama-nickel-boys.jpg" alt="nickel boys Movie poster" onclick="openModal('NICKEL BOYS', 'A powerful friendship develops between two young African American men as they navigate the harrowing trials of reform school together.', 'video/nickel-boys.mp4')">
+                <img src="images/drama-out-of-mind-.jpg" alt=" out of my mind movie poster" onclick="openModal('OUT OF MY MIND', 'Melody Brooks is navigating sixth grade as a nonverbal wheelchair user who has cerebral palsy.')">
+                <img src="images/drama-rescued-by-ruby.jpg" alt="rescued by ruby Movie poster" onclick="openModal('RESCUED BY RUBY', 'Chasing his dream to join an elite K9 unit a state trooper partners with a fellow underdog clever but naughty shelter pup Ruby.')">
+                <img src="images/drama-still-here.jpg" alt="stiil here Movie poster" onclick="openModal('I AM STILL HERE', 'A woman married to a former politician during the military dictatorship in Brazil is forced to reinvent herself and chart a new course for her family after a violent and arbitrary act.')">
+            </div>
+            <hr>
+        </div>
+      
+<!-- Action movie section -->
+<div class="film-category" id="action">
+    <h2>Action</h2>
+    <div class="movie-row">
+        <img src="images/action-criminal-squad.png" alt="Den of Thieves Movie poster" onclick="openModal('DEN OF THIEVES', 'An elite unit of the LA County Sheriffs Dept and the states most successful bank robbery crew clash as the outlaws plan a seemingly impossible heist on the Federal Reserve Bank.')">
+        <img src="images/action-extraction.avif" alt="Extraction Movie poster"  onclick="openModal('EXTRACTION', 'Tyler Rake a fearless black market mercenary embarks on the most deadly extraction of his career when he is enlisted to rescue the kidnapped son of an imprisoned international crime lord')">
+        <img src="images/action-ineseption.jpeg"  alt="Inception Movie poster" onclick="openModal('INCEPTION', 'A thief who steals corporate secrets through the use of dream sharing technology is given the inverse task of planting an idea into the mind of a CEO')">
+        <img src="images/action-livedie.avif" alt="Edge of Tomorrow Movie poster" onclick="openModal('EDGE OF TOMORROW', 'A man fighting in a war against aliens must relive the same day every time he dies until he can find a way to stop their power source with the help of an elite soldier.')">
+        <img src="images/action-the-count-of-mont.jpg" alt="Count of Monte Cristo Movie poster" onclick="openModal('Count of Monte Cristo', 'After escaping from an island prison where he spent 14 years for being wrongly accused of state treason Edmond Dantès returns as the Count of Monte Cristo to exact revenge on the men who betrayed him.')">
+    </div>
+    <hr>
+</div>
+  <!-- Arabic movie section -->
+  <div class="film-category" id="arabic">
+    <h2>Arabic Movies</h2>
+    <div class="movie-row">
+        <img src="images/arabic-bahebk.jpg" alt="Bahebak Movie poster" onclick="openModal('I LOVE YOU', 'Ali a self made middle class businessman finds himself torn between two loves: The woman hes about to marry and his old flame who barges back into his life What will his heart dictate?')">
+        <img src="images/arabic-restart.jpg" alt="RESTART Movie poster" onclick="openModal('RESTART','Mohamed a humble phone technician dreams of marrying Afaf a small-time influencer To afford their future they team up with their quirky families to chase internet fame and with the help of the notorious agent the Joker they make it big! As fame and fortune roll in they lose sight of what truly matters Now its up to Mohamed to restore his family bond and save the love of his life from the grip of online fame.')">
+        <img src="images/arabic-safa-banat.jpg" alt="ALSAFA THANAWIA BANAT Movie poster" onclick="openModal('ALSAFA THANAWIA BANAT','As an ambitious teacher goes to work at Al Safa High School for Girls he is exposed to many funny situations, and his life is intertwined with different people')">
+        <img src="images/arabic-siko.jpg" alt="SIKO SIKO Movie poster" onclick="openModal('SIKO SIKO', 'Two cousins both from a middle class background finally see their dream come true when their inheritance is rightfully returned to them following their uncles death They discover that the inheritance is in the form of illegal goods.')">
+        <img src="images/arabic-wahedsani.jpg" alt="ALSAFA THANAWIA BANAT Movie poster" onclick="openModal('ANOTHER ONE','Mustafa who works in the rehabilitation of prisoners is trying to fight himself who has begun to love apathy and monotony he undergoes a long journey to discover that he is actually fighting himself.')">
+    </div>
+    <br>
+    <br>
+</div>
+<!-- Movie modal -->
+   <div id="movieModal" class="modal">
+    <div class="modal-content-2">
+      <span class="close-btn" onclick="closeModal()">&times;</span>
+      <h2 id="modalTitle"></h2>
+      <p id="modalDesc"></p>
+  
+      <!-- to displey the Movie video-->
+      <video id="modalTrailer" controls></video>
+  
+      <!-- To display the audio-->
+      <audio id="modalAudio" controls ></audio>
+
+  
+      <!-- To display the booking button into the modal box -->
+      <button id="ticketButton" onclick="goToTicket()">Book Your Ticket</button>
+    </div>
+  </div>
+
+    </main>
+    
+    <footer>
+        <p>&copy;VoxBahrain</p>
+        <a id="contact" href="https://www.instagram.com/voxbahrain/?hl=en">@voxbahrain</a>
+    </footer>
+  
+
+    <script src="script.js"></script>
+</body>
+</html>

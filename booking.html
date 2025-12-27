@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Vox is a cinema website that includes many movies">
+    <meta name="keywords" content="Movies, Trend, Watch, Cinema, Bahrain, Entertainment">
+    <meta name="author" content="Ruqaya, Amjaad, Amna, Khawla, Walaa">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VoxBahrain</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/favicon.png">
+</head>
+<body>
+    <header>
+        <img src="images/logo.png" id="logo">
+        <nav>
+        <a href="index.html">Home</a>
+        <a href="movies.html">Movies</a>
+        <a href="snacks.html">Snacks</a>
+        <a href="offers.html">Offers</a>
+        <a href="booking.html">Booking</a>
+        </nav>
+    </header>
+
+    <main>
+    <br>
+        <h2 id="book">Book Now..</h2>
+        <!-- Film Name -->
+        <div class="NameWay">
+            <label id="fname">Movie Name:
+                <input type="text" name="filmlist" list="filmlist" placeholder="tap to Choose..">
+            </label>
+            <!-- Film list -->
+            <datalist id="filmlist">
+                <option value="Coco">
+                <option value="Dora">
+                <option value="Smallfoot">
+                <option value="Snow White">
+                <option value="Wimpy kid">
+                <option value="The Boy Who Harnessed the Wind">
+                <option value="Nickel Boys">
+                <option value="Out of My Mind">   
+                <option value="Rescued by Ruby"> 
+                <option value="I'm Still Here">
+                <option value="Den of Thieves">
+                <option value="Extraction">   
+                <option value="Inception">   
+                <option value="Edge of Tomorrow">  
+                <option value="Count of Monte Cristo">    
+                <option value="I Love You">
+                <option value="Restart">   
+                <option value="Al Safa Thanawia Banat">   
+                <option value="Siko Siko">  
+                <option value="Another One">       
+            </datalist>
+            <!-- ways to watch -->
+            <form id="ways">
+                <fieldset id="fway">
+                    <legend>Select a Way to Watch: 
+                        <br>
+                        <label>THEATRE
+                            <input id="way" type="radio" name="way" value="way">
+                        </label>
+                        <label>MAX
+                            <input id="way" type="radio" name="way" value="way">
+                        </label>
+                        <label>IMAX
+                            <input id="way" type="radio" name="way" value="way">
+                        </label>
+                        <label>VIP
+                            <input id="way" type="radio" name="way" value="way">
+                        </label>
+                    </legend>
+                </fieldset>
+            </form>
+        </div>
+    <br>
+        <!-- Day and Dates -->
+         <div class="Calendar">
+            <h3 id="month">June</h3>
+            <li class="dateday">Mon<br>1</li>
+            <li class="dateday">Tue<br>2</li>
+            <li class="dateday">Wed<br>3</li>
+            <li class="dateday">Thu<br>4</li>
+            <li class="dateday">Fri<br>5</li>
+            <li class="dateday">Sat<br>6</li>
+            <li class="dateday">Sun<br>7</li>
+            <li class="dateday">Mon<br>8</li>
+            <li class="dateday">Tue<br>9</li>
+            <li class="dateday">Wed<br>10</li>
+            <li class="dateday">Thu<br>11</li>
+            <li class="dateday">Fri<br>12</li>
+            <li class="dateday">Sat<br>13</li>
+            <li class="dateday">Sun<br>14</li>
+         </div>
+
+
+         <!-- Screen -->
+          <div class="screen">
+            Screen
+          </div>
+       <!-- Details about chairs  -->
+        <div class="details">
+            <div class="details_chair">
+                <li class="available">Available</li>
+                <li class="booked">Booked</li>
+                <li class="selected">Selected</li>
+            </div>
+        </div>
+
+         <!-- Seats -->
+        <div class="Chair">
+            <div class="row">
+                <span >H</span>
+                <li class="seat">1</li>
+                <li class="seat">2</li>
+                <li class="seat">3</li>
+                <li class="seat">4</li>
+                <li class="seat">5</li>
+                <li id="booked">6</li>
+                <li class="seat">7</li>
+                <li class="seat">8</li>
+                <li class="seat">9</li>
+                <li id="booked">10</li>
+                <li class="seat">11</li>
+                <li class="seat">12</li>
+                <li class="seat">13</li>
+                <li class="seat">14</li>
+                <li class="seat">15</li>
+                <li class="seat">16</li>
+                <li class="seat">17</li>
+                <li class="seat">18</li>
+                <li class="seat">19</li>
+                <li id="booked">20</li>
+                <li class="seat">21</li>
+                <li class="seat">22</li>
+                <li class="seat">23</li>
+                <li class="seat">24</li>
+                <li class="seat">25</li>
+                <span >H</span>
+            </div>
+            <div class="row">
+                <span >G</span>
+                <li class="seat">1</li>
+                <li class="seat">2</li>
+                <li class="seat">3</li>
+                <li class="seat">4</li>
+                <li class="seat">5</li>
+                <li class="seat">6</li>
+                <li id="booked">7</li>
+                <li class="seat">8</li>
+                <li class="seat">9</li>
+                <li class="seat">10</li>
+                <li class="seat">11</li>
+                <li class="seat">12</li>
+                <li class="seat">13</li>
+                <li id="booked">14</li>
+                <li class="seat">15</li>
+                <li class="seat">16</li>
+                <li class="seat">17</li>
+                <li class="seat">18</li>
+                <li class="seat">19</li>
+                <li class="seat">20</li>
+                <li id="booked">21</li>
+                <li id="booked">22</li>
+                <li class="seat">23</li>
+                <li class="seat">24</li>
+                <li id="booked">25</li>
+                <span >G</span>
+            </div>
+            <div class="row">
+                <span >F</span>
+                <li id="booked">1</li>
+                <li class="seat">2</li>
+                <li class="seat">3</li>
+                <li class="seat">4</li>
+                <li class="seat">5</li>
+                <li id="booked">6</li>
+                <li class="seat">7</li>
+                <li class="seat">8</li>
+                <li class="seat">9</li>
+                <li class="seat">10</li>
+                <li class="seat">11</li>
+                <li class="seat">12</li>
+                <li class="seat">13</li>
+                <li class="seat">14</li>
+                <li class="seat">15</li>
+                <li class="seat">16</li>
+                <li id="booked">17</li>
+                <li class="seat">18</li>
+                <li id="booked">19</li>
+                <li class="seat">20</li>
+                <li class="seat">21</li>
+                <li class="seat">22</li>
+                <li class="seat">23</li>
+                <li class="seat">24</li>
+                <li class="seat">25</li>
+                <span >F</span>
+            </div>
+            <div class="row">
+                <span >E</span>
+                <li class="seat">1</li>
+                <li class="seat">2</li>
+                <li class="seat">3</li>
+                <li class="seat">4</li>
+                <li id="booked">5</li>
+                <li class="seat">6</li>
+                <li class="seat">7</li>
+                <li class="seat">8</li>
+                <li class="seat">9</li>
+                <li class="seat">10</li>
+                <li class="seat">11</li>
+                <li id="booked">12</li>
+                <li class="seat">13</li>
+                <li class="seat">14</li>
+                <li class="seat">15</li>
+                <li class="seat">16</li>
+                <li class="seat">17</li>
+                <li class="seat">18</li>
+                <li class="seat">19</li>
+                <li class="seat">20</li>
+                <li id="booked">21</li>
+                <li class="seat">22</li>
+                <li class="seat">23</li>
+                <li class="seat">24</li>
+                <li id="booked">25</li>
+                <span >E</span>
+            </div>
+            <div class="row">
+                <span >D</span>
+                <li class="seat">1</li>
+                <li class="seat">2</li>
+                <li class="seat">3</li>
+                <li id="booked">4</li>
+                <li class="seat">5</li>
+                <li class="seat">6</li>
+                <li class="seat">7</li>
+                <li class="seat">8</li>
+                <li class="seat">9</li>
+                <li class="seat">10</li>
+                <li class="seat">11</li>
+                <li class="seat">12</li>
+                <li id="booked">13</li>
+                <li class="seat">14</li>
+                <li class="seat">15</li>
+                <li class="seat">16</li>
+                <li class="seat">17</li>
+                <li class="seat">18</li>
+                <li id="booked">19</li>
+                <li class="seat">20</li>
+                <li class="seat">21</li>
+                <li class="seat">22</li>
+                <li class="seat">23</li>
+                <li class="seat">24</li>
+                <li class="seat">25</li>
+                <span >D</span>
+            </div>
+            <div class="row">
+                <span >C</span>
+                <li class="seat">1</li>
+                <li id="booked">2</li>
+                <li id="booked">3</li>
+                <li class="seat">4</li>
+                <li class="seat">5</li>
+                <li class="seat">6</li>
+                <li class="seat">7</li>
+                <li class="seat">8</li>
+                <li class="seat">9</li>
+                <li class="seat">10</li>
+                <li class="seat">11</li>
+                <li class="seat">12</li>
+                <li class="seat">13</li>
+                <li class="seat">14</li>
+                <li class="seat">15</li>
+                <li class="seat">16</li>
+                <li class="seat">17</li>
+                <li class="seat">18</li>
+                <li class="seat">19</li>
+                <li class="seat">20</li>
+                <li class="seat">21</li>
+                <li class="seat">22</li>
+                <li class="seat">23</li>
+                <li id="booked">24</li>
+                <li id="booked">25</li>
+                <span >C</span>
+            </div>
+            <div class="row">
+                <span >B</span>
+                <li class="seat">1</li>
+                <li class="seat">2</li>
+                <li class="seat">3</li>
+                <li class="seat">4</li>
+                <li class="seat">5</li>
+                <li class="seat">6</li>
+                <li class="seat">7</li>
+                <li class="seat">8</li>
+                <li class="seat">9</li>
+                <li class="seat">10</li>
+                <li id="booked">11</li>
+                <li id="booked">12</li>
+                <li id="booked">13</li>
+                <li id="booked">14</li>
+                <li class="seat">15</li>
+                <li class="seat">16</li>
+                <li class="seat">17</li>
+                <li class="seat">18</li>
+                <li class="seat">19</li>
+                <li class="seat">20</li>
+                <li class="seat">21</li>
+                <li class="seat">22</li>
+                <li class="seat">23</li>
+                <li class="seat">24</li>
+                <li class="seat">25</li>
+                <span >B</span>
+            </div>
+            <div class="row">
+                <span >A</span>
+                <li class="seat">1</li>
+                <li class="seat">2</li>
+                <li class="seat">3</li>
+                <li class="seat">4</li>
+                <li id="booked">5</li>
+                <li class="seat">6</li>
+                <li class="seat">7</li>
+                <li class="seat">8</li>
+                <li class="seat">9</li>
+                <li class="seat">10</li>
+                <li class="seat">11</li>
+                <li id="booked">12</li>
+                <li id="booked">13</li>
+                <li id="booked">14</li>
+                <li class="seat">15</li>
+                <li class="seat">16</li>
+                <li class="seat">17</li>
+                <li class="seat">18</li>
+                <li class="seat">19</li>
+                <li class="seat">20</li>
+                <li class="seat">21</li>
+                <li id="booked">22</li>
+                <li class="seat">23</li>
+                <li class="seat">24</li>
+                <li class="seat">25</li>
+                <span >A</span>
+            </div>
+        </div>
+
+    <br> 
+   <div class="mbg">
+        <!-- A Form that collect the Name, PhoneNumber, and Email, With submit Button -->
+         <div class="form">
+            <form action="form" id="form" method="post" target="_blank">
+            <div class="form-group">
+                <label>Your Name: 
+                    <br>
+                    <input type="text" id="name" name="name" placeholder="Enter Your Name">
+                </label>
+            </div>
+            <div class="form-group">
+                <label>Phone Number:
+                    <br>
+                    <input type="number" id="number" name="number" placeholder="Enter Your Phone Number">
+                </label>
+            </div>
+            <div class="form-group">
+                <label>Email Address:
+                    <br>
+                    <input type="text" id="email" name="email" placeholder="Enter Your Email Address">
+                </label>
+            </div>
+                <input type="submit" id="submit" value="submit">
+            </form>
+         </div>
+        </div>
+
+         <!-- Offers and Snacks Buttons -->
+        <div class="btns">
+            <a href="snacks.html" id="snacksbtn">< Buy Some Snacks</a>
+            <a href="offers.html" id="offersbtn">Check Our Offers ></a>
+        </div>
+    <br>
+    </main>
+
+    <footer>
+            <p>&copy;VoxBahrain</p>
+            <a id="contact" href="https://www.instagram.com/voxbahrain/?hl=en">@voxbahrain</a>
+    </footer>
+
+<script src="script.js"></script>
+</body>
+</html>

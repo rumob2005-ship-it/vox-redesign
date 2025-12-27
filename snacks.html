@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Vox is a cinema website that includes many movies">
+    <meta name="keywords" content="Movies, Trend, Watch, Cinema, Bahrain, Entertainment">
+    <meta name="author" content="Ruqaya, Amjaad, Amna, Khawla, Walaa">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VoxBahrain</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/favicon.png">
+</head>
+<body>
+    <!--Add nav bar-->
+    <header>
+        <img src="images/logo.png" id="logo">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="movies.html">Movies</a>
+            <a href="snacks.html">Snacks</a>
+            <a href="offers.html">Offers</a>
+            <a href="booking.html">Booking</a>
+        </nav>
+    </header>
+    
+    <main>
+        <br>
+    <section id="type">
+        <div class="container">
+            <img class="cart" id="cart" src="images/cart.png" onclick="toggleCart()">
+        </div>
+     <div id="cartbox">
+    <ul id="cartitems"></ul>
+    <p id="total-price">Total: 0.00 BD</p></div>
+    <div class="title"><h1 class="producttype">Popcorn</h1>
+    </div>
+   <div class="items">
+    <!--salted popcorn-->
+<div class="Wrapper1">
+<img src="images/salt-popcorn.png" alt="Salted popcorn">
+<p>Salted Popcorn</p>
+<select id="option1" class="size">
+<option disabled selected>Choose the size</option>
+<option value="small">Small 2.5 BD</option>
+<option value="medium">Medium 2.8 BD</option>
+<option value="large">Large 3.2 BD</option>
+</select>
+<br><button class="addtocart" onclick="AddToCart('Saltedpopcorn',event)">
+   <span class="circle"> <span class="check">✔️</span>
+    <span class="spinner"></span></span>
+    <span class="buttontext"> Add to cart</span></button>
+</div>
+<!--caramel popcorn-->
+<div class="Wrapper1">
+<img src="images/caramel-popcorn.png" alt="Caramel popcorn">
+<p>Caramel Popcorn</p>
+<select id="option2" class="size">
+<option disabled selected>Choose the size</option>
+<option value="small">Small 2.5 BD</option>
+<option value="medium">Medium 2.8 BD</option>
+<option value="large">Large 3.2 BD</option>
+</select>
+<br><button class="addtocart" onclick="AddToCart('Caramel popcorn',event)">
+     <span class="circle"> <span class="check">✔️</span>
+    <span class="spinner"></span></span>
+    <span class="buttontext"> Add to cart</span></button></div>
+
+<!--chocolate popcorn-->
+<div class="Wrapper1">
+<img src="images/chocolate-popcorn.png" alt="Chocolate popcorn">
+<p>Chocolate Popcorn</p>
+<select id="option3" class="size">
+<option disabled selected>Choose the size</option>
+<option value="small">Small 2.5 BD</option>
+<option value="medium">Medium 2.8 BD</option>
+<option value="large">Large 3.2 BD</option>
+</select>
+    <br><button class="addtocart" onclick="AddToCart('Chocolate popcorn',event)"> 
+        <span class="circle"> <span class="check">✔️</span>
+        <span class="spinner"></span></span>
+        <span class="buttontext"> Add to cart</span></button></div>
+    
+</div></section>
+
+<!--insert nachos section-->
+<section id="type">
+<div class="title"><h1 class="producttype">Nachos</h1></div>
+<div class="items">
+<div class="Wrapper1">
+<img src="images/beef-nachos.png" alt="Beef nachos">
+<!--beef nachos-->
+<p>Beef Nachos</p>
+<select id="option1" class="size">
+ <option disabled selected>Choose the size</option>
+<option value="small">Small 1.5 BD</option>
+<option value="medium">Medium 2.5 BD</option>
+<option value="large">Large 3 BD</option>
+</select>
+<br><button class="addtocart" onclick="AddToCart('beef nachos',event)">
+     <span class="circle"> <span class="check">✔️</span>
+    <span class="spinner"></span></span>
+    <span class="buttontext"> Add to cart</span></button></div>
+<!--beefy nachos-->
+<div class="Wrapper1">
+<img src="images/cheesy-nachos.png" alt="Cheesy nachos">
+<p>Cheesy Nachos</p>
+<select id="option2" class="size">
+<option disabled selected>Choose the size</option>
+<option value="small">Small 1.5 BD</option>
+<option value="medium">Medium 2.5 BD</option>
+<option value="large">Large 3 BD</option>
+</select>
+<br><button class="addtocart" onclick="AddToCart('cheesy nachos',event)">
+     <span class="circle"> <span class="check">✔️</span>
+    <span class="spinner"></span></span>
+    <span class="buttontext"> Add to cart</span></button></div>
+
+<!--soicy nachos-->
+<div class="Wrapper1">
+<img src="images/spicy-nachos.png" alt="Spicy nachos">
+<p>Spicy Nachos</p>
+<select id="option3" class="size">
+<option disabled selected>Choose the size</option>
+<option value="small">Small 1 BD</option>
+<option value="medium">Medium 1.5 BD</option>
+<option value="large">Large 2 BD</option>
+</select>
+    <br><button class="addtocart" onclick="AddToCart('spicy nachos',event)">
+         <span class="circle"> <span class="check">✔️</span>
+        <span class="spinner"></span></span>
+        <span class="buttontext"> Add to cart</span></button></div>
+    
+</div></section>
+
+<!--water-->
+<section id="type">
+    <div class="title"><h1 class="producttype">Drinks</h1></div>
+    <div class="items">
+    <div class="Wrapper1">
+    <img src="images/water.png" alt="Water">
+    <p>Water</p>
+    <select id="option1" class="size">
+     <option disabled selected>Choose the size</option>
+    <option value="small">Small 1.5 BD</option>
+    <option value="medium">Medium 2.5 BD</option>
+    <option value="large">Large 3 BD</option>
+    </select>
+    <br><button class="addtocart" onclick="AddToCart('water',event)">
+         <span class="circle"> <span class="check">✔️</span>
+        <span class="spinner"></span></span>
+        <span class="buttontext"> Add to cart</span></button></div>
+    <!--soft drinks-->
+    <div class="Wrapper1">
+    <img src="images/soft-drinks.png" alt="Soft drinks">
+    <p>Soft Drinks</p>
+    <select id="option2" class="size">
+    <option disabled selected>Choose the drinks</option>
+    <option value="small">Sprit 1.5 BD</option>
+    <option value="medium">Coca Cola 1.5 BD</option>
+    <option value="large">Orange fanta 1.5 BD</option>
+    </select>
+    <br><button class="addtocart" onclick="AddToCart('soft drinks',event)"> 
+        <span class="circle"> <span class="check">✔️</span>
+        <span class="spinner"></span></span>
+        <span class="buttontext"> Add to cart</span></button></div>
+    
+    <!--juices-->
+    <div class="Wrapper1">
+    <img src="images/juices.png" alt="Juices">
+    <p>Juices</p>
+    <select id="option3" class="size">
+    <option disabled selected>Choose the drinks</option>
+    <option value="small">Strawberry 2 BD</option>
+    <option value="medium">Lemon with Mint 2 BD</option>
+    <option value="large">Mango 2 BD</option>
+    </select>
+        <br><button class="addtocart" onclick="AddToCart('juices',event)"> 
+            <span class="circle"> <span class="check">✔️</span>
+    <span class="spinner"></span></span>
+    <span class="buttontext"> Add to cart</span></button></div>
+        
+    </div></section>
+    <!--insert offers section-->
+    <section class="snackoffers">
+    <h1 class="producttype">Snack Offers</h1>
+      <div class="s-offers"> 
+        <!--family deal offer-->
+        <h2>Family Deal</h2>
+       <p> 2 Large popcorns + 2 Drinks + Nachos at a special price!</p>
+      </div>
+     <div class="s-offers">
+        <!--duo offer-->
+     <h2>Duo Offer</h2>
+     <p>Buy any 2 snacks and get the third at half price!</p>
+     </div>
+     <div class="s-offers">
+        <!--golden hour offer-->
+        <h2 >Golden Hour Offer</h2>
+        <p>Get 5% of all snacks before 6pm!</p>
+     </div>
+    </section>
+    <div class="bookingbtn">
+<a href="booking.html" id="booking1">Booking!!</a>
+    </div>
+    <br>
+    </main>
+    <!--footer-->
+<footer>
+    <p>&copy;VoxBahrain</p>
+    <a id="contact" href="https://www.instagram.com/voxbahrain/?hl=en">@voxbahrain</a>
+</footer>
+<!--javascript file -->
+<script src="script.js"></script>
+</body>
+</html>
